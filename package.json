@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.2",
     "@material-ui/icons": "^4.9.1",
+    "@testing-library/dom": "^7.26.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -13,9 +14,12 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
     "axios": "^0.19.2",
     "connected-react-router": "^6.8.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "history": "^4.10.1",
+    "immutable": "^3.8.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
@@ -49,6 +53,11 @@
   },
   "devDependencies": {
     "@types/history": "^4.7.5",
-    "@types/react-redux": "^7.1.7"
+    "@types/react-redux": "^7.1.7",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5"
   }
 }

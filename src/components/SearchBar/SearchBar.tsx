@@ -1,13 +1,13 @@
-import React from "react";
-import { withStyles } from "@material-ui/core/styles";
-import { CSSProperties } from "@material-ui/styles";
-import InputBase from "@material-ui/core/InputBase";
+import React from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import { CSSProperties } from '@material-ui/styles';
+import InputBase from '@material-ui/core/InputBase';
 
-import { CustomTheme } from "../../style/theme";
+import { CustomTheme } from '../../style/theme';
 
-import MjpSearch from "../../assets/design/mjp-icon.svg";
+import MjpSearch from '../../assets/design/mjp-icon.svg';
 
-type ClassNames = "container" | "input" | "logoSearch";
+type ClassNames = 'container' | 'input' | 'logoSearch';
 interface OwnProps {
   classes: Record<ClassNames, string>;
 }
@@ -29,16 +29,16 @@ export const SearchBar: React.FC<Props> = (props: Props) => {
 
 const styles = (theme: CustomTheme): Record<ClassNames, CSSProperties> => ({
   container: {
-    display: "flex",
-    marginBottom: theme.spacing(2)
+    display: 'flex',
+    marginBottom: theme.spacing(2),
   },
   logoSearch: {
-    width: 45
+    width: 45,
   },
   input: {
-    width: "100%",
-    fontSize: 32
-  }
+    width: '100%',
+    fontSize: 32,
+  },
 });
 
 export default withStyles(styles)(SearchBar);

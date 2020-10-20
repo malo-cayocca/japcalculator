@@ -1,10 +1,10 @@
-import Miso from "../assets/images/food/Miso.svg";
-import Meat from "../assets/images/food/Brochette viande.svg";
-import Maki from "../assets/images/food/Maki.svg";
-import Sushi from "../assets/images/food/Sushi.svg";
-import California from "../assets/images/food/California.svg";
-import BeefCheese from "../assets/images/food/Brochette boeuf fro.svg";
-import Litchi from "../assets/images/food/litchi.svg";
+import Miso from '../assets/images/food/Miso.svg';
+import Meat from '../assets/images/food/Brochette viande.svg';
+import Maki from '../assets/images/food/Maki.svg';
+import Sushi from '../assets/images/food/Sushi.svg';
+import California from '../assets/images/food/California.svg';
+import BeefCheese from '../assets/images/food/Brochette boeuf fro.svg';
+import Litchi from '../assets/images/food/litchi.svg';
 
 export interface FoodItem {
   name: string;
@@ -15,38 +15,38 @@ export interface FoodItem {
 // values from: http://dieteplaisir.canalblog.com/archives/2012/05/18/24268064.html
 export const FOOD_ITEMS: Array<FoodItem> = [
   {
-    name: "Sushi",
+    name: 'Sushi',
     kcal: 45,
-    imageUrl: Sushi
+    imageUrl: Sushi,
   },
   {
-    name: "Maki",
+    name: 'Maki',
     kcal: 20,
-    imageUrl: Maki
+    imageUrl: Maki,
   },
   {
-    name: "California",
+    name: 'California',
     kcal: 35,
-    imageUrl: California
+    imageUrl: California,
   },
   {
-    name: "Boeuf Fromage",
+    name: 'Boeuf Fromage',
     kcal: 175,
-    imageUrl: BeefCheese
+    imageUrl: BeefCheese,
   },
   {
-    name: "Soupe Miso",
+    name: 'Soupe Miso',
     kcal: 50,
-    imageUrl: Miso
+    imageUrl: Miso,
   },
   {
-    name: "Viande",
+    name: 'Viande',
     kcal: 130,
-    imageUrl: Meat
+    imageUrl: Meat,
   },
   {
-    name: "Litchi",
+    name: 'Litchi',
     kcal: 5,
-    imageUrl: Litchi
-  }
+    imageUrl: Litchi,
+  },
 ];
