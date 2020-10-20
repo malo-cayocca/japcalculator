@@ -1,4 +1,4 @@
-import Miso from '../assets/images/food/Miso.svg';
+import Miso from "../assets/images/food/Miso.svg";
 import Meat from '../assets/images/food/Brochette viande.svg';
 import Maki from '../assets/images/food/Maki.svg';
 import Sushi from '../assets/images/food/Sushi.svg';
