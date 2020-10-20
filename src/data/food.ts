@@ -4,7 +4,7 @@ import Maki from "../assets/images/food/Maki.svg";
 import Sushi from "../assets/images/food/Sushi.svg";
 import California from "../assets/images/food/California.svg";
 import BeefCheese from "../assets/images/food/Brochette boeuf fro.svg";
-import Litchi from "../assets/images/food/litchi.png";
+import Litchi from "../assets/images/food/litchi.svg";
 
 export interface FoodItem {
   name: string;
