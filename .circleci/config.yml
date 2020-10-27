@@ -19,7 +19,7 @@ jobs:
             - ~/.cache
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: yarn test
-      # Change yarn audit to only emit a non-zero exit code for Crital 
+      # Change yarn audit to only emit a non-zero exit code for Critical 
       # vulnerabilities or higher (16)
       - run: /bin/bash -c 'yarn audit; [[ $? -ge 16 ]] && exit 1 || exit 0'
       - run: yarn run eslint src/*.ts src/**/*.ts
